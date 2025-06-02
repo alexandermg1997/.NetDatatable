@@ -1,0 +1,59 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 2022
+.vs/
+.vscode/
+
+# ASP.NET/Entity Framework
+App_Data/
+*.dbmdl
+*.jfm
+
+# Razor Pages artifacts
+wwwroot/lib/
+wwwroot/node_modules/
+wwwroot/dist/
+wwwroot/build/
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of PackageReference
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Dotnet tools
+.dotnet/
+tools/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User secrets
+secrets.json
+
+# Publish output
+publish/
+*.Publish.xml
+
+# Rider
+.idea/
+*.sln.iml
+
+# Others
+*.swp
+*.bak
+*.tmp
